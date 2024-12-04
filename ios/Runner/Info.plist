@@ -6,6 +6,17 @@
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
 	<string>Chat App Firebase</string>
+	<key>GIDClientID</key>
+    <string>1091459592635-738a6j8aio5f9qkn7kr7q7a1uort8n1s.apps.googleusercontent.com</string>
+	<key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>com.googleusercontent.apps.1091459592635-738a6j8aio5f9qkn7kr7q7a1uort8n1s</string>
+        </array>
+      </dict>
+    </array>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>

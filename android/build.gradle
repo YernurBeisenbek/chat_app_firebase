@@ -1,3 +1,14 @@
+buildscript {
+    repositories {
+        google()  // Make sure this is present
+        mavenCentral()  // Make sure this is present
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.0.0'  // Gradle plugin version
+        classpath 'com.google.gms:google-services:4.3.10' // Google services classpath
+    }
+}
+
 allprojects {
     repositories {
         google()
@@ -15,8 +26,4 @@ subprojects {
 
 tasks.register("clean", Delete) {
     delete rootProject.buildDir
-}
-
-dependencies {
-    classpath 'com.google.gms:google-services:4.3.10'
 }
