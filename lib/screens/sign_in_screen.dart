@@ -17,6 +17,7 @@ class _SignInScreenState extends State<SignInScreen> {
   Future<void> _handleSignIn(BuildContext context) async {
     setState(() {
       _isLoading = true; // Show loading indicator
+      
     });
 
     try {
